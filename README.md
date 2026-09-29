@@ -175,4 +175,4 @@ prompt-craft/
 
 ## License
 
-MIT © Betianxia
+MIT © Babymrbbbb
