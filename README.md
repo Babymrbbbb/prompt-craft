@@ -173,6 +173,20 @@ prompt-craft/
 
 ---
 
+## 相关项目
+
+这条链路是**从真实业务里长出来的完整 AI 落地体系**：
+
+- **[sensenova-gateway](https://github.com/Babymrbbbb/sensenova-gateway)** — 零依赖本地 OpenAI 兼容网关，多 key 池 + 配额管理。**接入 AI**
+- **[kb-cli](https://github.com/Babymrbbbb/kb-cli)** — 多子库 × 多层的本地知识库检索器。**管理知识**
+- **[ai-native-team](https://github.com/Babymrbbbb/ai-native-team)** — AI 原生组织 OS：把 40+ 自动化任务、数十个 AI 角色、多 AI 工具协作跑成业务生产线。**组织 AI 落地**
+
+```
+接入 AI（sensenova-gateway）→ 用好 AI（本仓库）→ 管理知识（kb-cli）→ 组织 AI 落地（ai-native-team）
+```
+
+---
+
 ## License
 
 MIT © Babymrbbbb
