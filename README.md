@@ -175,17 +175,34 @@ prompt-craft/
 
 ---
 
-## 相关项目
+## 这是一套体系的一部分，不是孤立项目
 
-这条链路是**从真实业务里长出来的完整 AI 落地体系**：
-
-- **[sensenova-gateway](https://github.com/Babymrbbbb/sensenova-gateway)** — 零依赖本地 OpenAI 兼容网关，多 key 池 + 配额管理。**接入 AI**
-- **[kb-cli](https://github.com/Babymrbbbb/kb-cli)** — 多子库 × 多层的本地知识库检索器。**管理知识**
-- **[ai-native-team](https://github.com/Babymrbbbb/ai-native-team)** — AI 原生组织 OS：把 40+ 自动化任务、数十个 AI 角色、多 AI 工具协作跑成业务生产线。**组织 AI 落地**
+> **核心**：所有仓库围绕同一件事——让 45 家门店的真实业务被 AI 高效落地。每个仓库解决一个环节，合起来是一条完整生产线。
 
 ```
-接入 AI（sensenova-gateway）→ 用好 AI（本仓库）→ 管理知识（kb-cli）→ 组织 AI 落地（ai-native-team）
+接入 AI（gateway）→ 用好 AI（本仓库）→ 管理/编译知识（kb-cli + llm-wiki）→ 组织 AI 落地（ai-native-team）→ 交付业务结果（驾驶舱 / 指挥台）
 ```
+
+### 本仓库在体系中的位置
+
+**为什么改造**：AI 出图/出视频总是一眼假、不可控——抽象需求（「高级感」「好看」）模型理解不了。不改，AI 内容生产就是碰运气。
+
+**意义**：把「AI 内容产出」从许愿变成下订单——九要素结构 + 三大治法 + 跨模态实战手册 + 量化验收标准，让 AI 产出一遍过、可验收。
+
+**结合哪些部分**：
+- 跑在 **sensenova-gateway** 提供的稳定模型通道上
+- 产出内容被 **Eval 质量门** 校验（分辨率/色调/品牌色占比）
+- 优秀案例沉淀进 **kb-cli / llm-wiki** 知识库复用
+- 由 **ai-native-team** 的自动化任务调度内容生产节奏
+
+**单独用的价值**：即使不用整套体系，任何做 AI 内容（图像/视频）的团队都能直接用这套提示词方法论，把「多试几次」变成「一次下对订单」。
+
+### 相关项目
+
+- **[sensenova-gateway](https://github.com/Babymrbbbb/sensenova-gateway)** — 接入 AI：稳定模型调用底座
+- **[kb-cli](https://github.com/Babymrbbbb/kb-cli)** — 管理知识：优秀提示词案例沉淀复用
+- **[llm-wiki](https://github.com/Babymrbbbb/llm-wiki)** — 编译知识：提示词方法论知识化
+- **[ai-native-team](https://github.com/Babymrbbbb/ai-native-team)** — 组织 AI 落地：内容生产工作流编排
 
 ---
 
