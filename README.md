@@ -180,7 +180,7 @@ prompt-craft/
 > **核心**：围绕「45 家门店 AI 落地」场景，按真实故障逐步改造成 5 个公开项目 + 2 个桌面软件。每个产出解决一个具体故障。
 
 ```
-接入 AI（gateway）→ 用好 AI（本仓库）→ RAG 知识库（llm-wiki）→ 组织 AI 落地（ai-native-team）→ 交付业务结果（驾驶舱 / 指挥台）
+接入 AI（gateway）→ 用好 AI（本仓库）→ LLM×RAG 知识库（llm-wiki）→ 组织 AI 落地（ai-native-team）→ 交付业务结果（驾驶舱 / 指挥台）
 ```
 
 ### 本仓库在场景中的位置
@@ -201,7 +201,7 @@ prompt-craft/
 
 - **[sensenova-gateway](https://github.com/Babymrbbbb/sensenova-gateway)** — 接入 AI：稳定模型调用底座
 - **[kb-cli](https://github.com/Babymrbbbb/kb-cli)** — 早期实现：优秀提示词案例的早期沉淀原型
-- **[llm-wiki](https://github.com/Babymrbbbb/llm-wiki)** — RAG 知识库：提示词方法论知识化
+- **[llm-wiki](https://github.com/Babymrbbbb/llm-wiki)** — LLM×RAG 知识库：提示词方法论知识化
 - **[ai-native-team](https://github.com/Babymrbbbb/ai-native-team)** — 组织 AI 落地：内容生产工作流编排
 
 ---
