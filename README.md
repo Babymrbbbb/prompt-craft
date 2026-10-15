@@ -180,7 +180,7 @@ prompt-craft/
 > **核心**：围绕「45 家门店 AI 落地」场景，按真实故障逐步改造成 5 个公开项目 + 2 个桌面软件。每个产出解决一个具体故障。
 
 ```
-接入 AI（gateway）→ 用好 AI（本仓库）→ 管理/编译知识（kb-cli + llm-wiki）→ 组织 AI 落地（ai-native-team）→ 交付业务结果（驾驶舱 / 指挥台）
+接入 AI（gateway）→ 用好 AI（本仓库）→ RAG 知识库（llm-wiki）→ 组织 AI 落地（ai-native-team）→ 交付业务结果（驾驶舱 / 指挥台）
 ```
 
 ### 本仓库在场景中的位置
@@ -192,7 +192,7 @@ prompt-craft/
 **结合哪些部分**：
 - 跑在 **sensenova-gateway** 提供的稳定模型通道上
 - 产出内容被 **Eval 质量门** 校验（分辨率/色调/品牌色占比）
-- 优秀案例沉淀进 **kb-cli / llm-wiki** 知识库复用
+- 优秀案例沉淀进 **llm-wiki** 知识库复用
 - 由 **ai-native-team** 的自动化任务调度内容生产节奏
 
 **单独用的价值**：即使不接入其他产出，任何做 AI 内容（图像/视频）的团队都能直接用这套提示词方法论，把「多试几次」变成「一次下对订单」。
@@ -200,8 +200,8 @@ prompt-craft/
 ### 相关项目
 
 - **[sensenova-gateway](https://github.com/Babymrbbbb/sensenova-gateway)** — 接入 AI：稳定模型调用底座
-- **[kb-cli](https://github.com/Babymrbbbb/kb-cli)** — 管理知识：优秀提示词案例沉淀复用
-- **[llm-wiki](https://github.com/Babymrbbbb/llm-wiki)** — 编译知识：提示词方法论知识化
+- **[kb-cli](https://github.com/Babymrbbbb/kb-cli)** — 早期实现：优秀提示词案例的早期沉淀原型
+- **[llm-wiki](https://github.com/Babymrbbbb/llm-wiki)** — RAG 知识库：提示词方法论知识化
 - **[ai-native-team](https://github.com/Babymrbbbb/ai-native-team)** — 组织 AI 落地：内容生产工作流编排
 
 ---
