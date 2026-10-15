@@ -70,7 +70,7 @@ prompt-craft/
 │   ├── prompt_templates.md            视频三大治法 + 深化模板 5–8 的完整提示词
 │   ├── prompt_methodology.md          5 维度 + 情绪驱动 + 过程写法（元框架）
 │   ├── video_narrative_methodology.md  叙事方法论：六步工作流、提示词污染、真人行为公式、镜头语言、10段模板、生成前自检清单
-│   └── agnes_api.md                   Agnes 接口字段、双参考实测结论、音频说明
+│   └── media_api.md                   媒体生成服务接口字段、双参考实测结论、音频说明
 ├── scripts/
 │   ├── crop_storyboard.py             九宫格分镜裁切成单格
 │   └── extract_tail.py                ffmpeg 抽尾帧（防 imageio 读 121 帧内存爆）
