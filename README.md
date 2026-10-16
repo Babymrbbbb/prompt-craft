@@ -180,7 +180,7 @@ prompt-craft/
 > **核心**：围绕「45+ 家门店 AI 落地」场景，按真实故障逐步改造成 5 个公开项目 + 2 个桌面软件。每个产出解决一个具体故障。
 
 ```
-接入 AI（gateway）→ 用好 AI（本仓库）→ LLM×RAG 知识库（llm-wiki）→ 组织 AI 落地（ai-native-team）→ 交付业务结果（驾驶舱 / 指挥台）
+接入 AI（gateway）→ 用好 AI（本仓库）→ LLM×RAG 知识库（llm-wiki）→ 组织 AI 落地（ai-native-team）→ 交付业务结果（驾驶舱 / 运维工作台）
 ```
 
 ### 本仓库在场景中的位置
